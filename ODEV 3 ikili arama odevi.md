@@ -25,7 +25,6 @@ enum TraversalMode {
 };
 
 
-
 struct Node {
 
 &nbsp;   int data;
@@ -343,4 +342,5 @@ void removeNodeKeepOrder(int value) {
 &nbsp;   root = deleteNodePreserveOrderRecursive(root, value);
 
 }
+
 
